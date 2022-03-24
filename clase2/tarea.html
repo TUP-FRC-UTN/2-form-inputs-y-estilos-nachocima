@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 2</title>
+</head>
+<body>
+    <h1>Beca</h1>
+    <form action="/" method="get">
+        <b>Datos Personales</b>
+        <hr>
+        Nombre <br>
+        <input type="text" placeholder="Nombre">
+        <br><br>
+        Apellido <br>
+        <input type="text" placeholder="Apellido">
+        <br><br>
+        DNI <br>
+        <input type="number" placeholder="DNI">
+        <br><br>
+        Fecha de Nacimiento <br>
+        <input type="date" name="fecha_n" id="fecha_n" min="1960-03-23" max="2004-12-30">
+        <br><br>
+        Pais <br>
+        <select name="pais" id="pais">
+            <option value="null">Paises...</option>
+            <option value="arg">Argentina</option>
+            <option value="brs">Brasil</option>
+            <option value="urg">Uruguay</option>
+        </select>
+        <br><br>
+        Género <br>
+        <input type="radio" id="genero" name="genero" value="M"> Masculino
+        <br>
+        <input type="radio" id="genero" name="genero" value="F"> Femenino
+        <br>
+        <input type="radio" id="genero" name="genero" value="O" checked> Otro
+        
+        <br><br>
+        <b>¿Para qué usaria su beca?</b>
+        <hr>
+        <textarea name="extra" id="extra" cols="40" rows="15" placeholder="Escriba aquí..."></textarea>
+        <br>
+        <button type="submit"> <a href="tarea.html" style="text-decoration: none;">Enviar</a></button>
+        <button type="reset">Cancelar</button>
+    </form>
+</body>
+</html>

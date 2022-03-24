@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/" method="get">
+
+        Nombre <br>
+        <input type="text" placeholder="Nombre">
+        <br>
+        Apellido <br>
+        <input type="text" placeholder="Apellido">
+        <br><br>
+
+        Género <br>
+        <input type="radio" id="genero" name="genero" value="M"> Masculino
+        <br>
+        <input type="radio" id="genero" name="genero" value="F"> Femenino
+        <br>
+        <input type="radio" id="genero" name="genero" value="O" checked> Otro
+        <br><br>
+
+        Intereses
+        <br>
+        <input type="checkbox" name="intereses" id="interese"> Deportes <br>
+        <input type="checkbox" name="intereses" id="interese"> Películas <br>
+        <input type="checkbox" name="intereses" id="interese" checked> Series
+        <br><br>
+
+        Fecha de Nacimiento <br>
+        <input type="date" name="fecha_n" id="fecha_n" min="2022-03-23" max="2022-04-23">
+        <br><br>
+
+        Seleccionar Provincia
+        <br>
+        <select name="provincias" id="provincias">
+            <option value="null">Seleccione...</option>
+            <option value="cba">Córdoba</option>
+            <option value="caba">Buenos Aires</option>
+        </select>
+        <br><br>
+
+        Reseña <br>
+        <textarea name="reseña" id="reseña" cols="30" rows="10" placeholder="Escriba aquí..."></textarea>
+
+    </form>
+</body>
+</html>
